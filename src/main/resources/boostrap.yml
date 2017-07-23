@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        health-check-interval: 30s 
+        health-check-url: http://localhost:9000/health

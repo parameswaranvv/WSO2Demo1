@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        health-check-interval: 30s 
+        health-check-url: http://localhost:9000/health
+  application:
+    name: wso2demo1
+
+server:
+    port: 9000
+
+endpoints:
+  enabled: true
